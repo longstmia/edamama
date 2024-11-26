@@ -1,8 +1,38 @@
-# React + Vite
+# Создаём README.md файл с содержимым текста
+readme_content = """# Edamam Recipe Finder
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Описание проекта
 
-Currently, two official plugins are available:
+**Edamam Recipe Finder** — это веб-приложение, позволяющее искать рецепты блюд по ключевым словам. Приложение интегрировано с API Edamam, предоставляющим информацию о калорийности, диетических и здоровых метках, а также основных питательных веществах блюд.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Проект разработан с использованием **React**, что делает его компонентным, масштабируемым и легко поддерживаемым.
+
+---
+
+## Функционал
+
+- Поиск рецептов по ключевым словам.
+- Информация о блюде:
+  - Изображение и название рецепта.
+  - Калорийность, порции, диетические и здоровые метки.
+  - Основные питательные вещества (белки, жиры, углеводы).
+- Обработка ошибок (например, проблем с сетью).
+- Индикация загрузки данных.
+
+---
+
+## Стек технологий
+
+- **React** — для создания интерфейса.
+- **HTML5** и **CSS3** — для базовой разметки и стилей.
+- **JavaScript (ES6+)** — для логики работы.
+- **Edamam API** — для получения данных о рецептах.
+
+---
+
+## Установка и запуск
+
+### 1. Клонирование репозитория
+```bash
+git clone https://github.com/your-username/edamam-recipe-finder.git
+cd edamam-recipe-finder
